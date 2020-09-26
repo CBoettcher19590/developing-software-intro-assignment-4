@@ -4,7 +4,7 @@ This respository is intended for the use of Focus College Students enrolled in t
 
 ---
 
-### Vresion: 2.1.0
+### Version: 3.0.0
 
 ## How to Use This Application
 ------------------------------
