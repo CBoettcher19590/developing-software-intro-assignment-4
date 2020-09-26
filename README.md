@@ -13,12 +13,14 @@ In this version of the assignment, our application can run three npm scripts. `c
     ```
     npm run compile
     ```
+
 * `start`, runs index.js file in the dist folder (which is created with the compile command)
 <br>
     Example: 
     ```
     npm run start
     ```
+    
 * `build`, runs both the start, and compile commands together:
 <br>
     Example: 
