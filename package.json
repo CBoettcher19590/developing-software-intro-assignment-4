@@ -1,13 +1,16 @@
 {
   "name": "acsd-assignment-4-colbyboetther",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "This respository is intended for the use of Focus College Students enrolled in the Advanced Certificate of Software Development located in Kelowna, BC and Surrey, BC.",
   "main": "index.js",
   "scripts": {
     "compile": "tsc",
+
     "start": "node dist/index.js",
+
     "build": "npm run compile && npm run start",
     "build:lint": "npm run lint && npm run build",
+
     "lint": "eslint src/**/*.ts --ext .ts --fix"
   },
   "repository": {
