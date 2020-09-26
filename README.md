@@ -4,11 +4,13 @@ This respository is intended for the use of Focus College Students enrolled in t
 
 ---
 
-### Version: 3.0.0
+### Version: 4.0.0
+Major Version Changes, Added prettier into dependancies. Will need to re-run ```npm install```
 
 ## How to Use This Application
 ------------------------------
-In this version of the assignment, our application can run five npm scripts. `compile`, `start`, `build`, `lint`, and `build:lint`.  
+In this version of the assignment, our application can run six npm scripts. `compile`,  `start` ,  `build` ,  `build:notest` , `build:format` , and `build:lint`. 
+
 * `compile`, runs the tsc command and compiles the project
 
     ```
@@ -23,28 +25,35 @@ In this version of the assignment, our application can run five npm scripts. `co
     npm run start
     ```
 
-* `build`, runs both the start, and compile commands together:
+* `build`, runs three commands at once, it will lint, format,  then compile and run
 
     Example: 
 
     ```
     npm run build
     ```
-* `lint`, runs eslint within our program
+* `build:notest`, this will run build, without prettier, or eslint.
 
     Example: 
 
     ```
-    npm run lint
+    npm run build:notest
     ```
-    * `build:lint`, runs all of the build commands, as well as linting.
+* `build:format`, runs prettier, and formats your code.
+
+    Example: 
+
+    ```
+    npm run build:format
+    ```s
+
+* `build:lint`, runs eslint within our program  (formally named `lint`)
 
     Example: 
 
     ```
     npm run build:lint
     ```
-
 
 
 ## Developing Instrucions 
