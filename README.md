@@ -4,16 +4,49 @@ This respository is intended for the use of Focus College Students enrolled in t
 
 ---
 
-You can remove everything below the above line once you're ready to edit this file.
+## How to Use This Application
+------------------------------
+In this version of the assignment, our application can run three npm scripts. `compile`, `start`, and `build`.  
+* `compile`, runs the tsc command and compiles the project
+<br>
+    Example: 
+    ```
+    npm run compile
+    ```
+* `start`, runs index.js file in the dist folder (which is created with the compile command)
+<br>
+    Example: 
+    ```
+    npm run start
+    ```
+* `build`, runs both the start, and compile commands together:
+<br>
+    Example: 
+    ```
+    npm run build
+    ```
 
-## Getting Started
 
-Please read the [Assignment Requirements](./assignments/readme.md)
 
-## Deadline For Submissions
 
-The deadline for this assignment is 5PM on Wednesday September 30th, 2020
+## Developing Instrucions 
+-------------------------
+Download this application from Github:
+```
+git clone https://github.com/CBoettcher19590/developing-software-intro-assignment-4
+```
 
-## Notes
+If already downloaded:
+```
+git pull origin master
+```
 
-This is a PUBLIC repository attached to your github account and something that you can demonstrate to potential employers. Take care to ensure professionalism for both you and your team's sake. This will be the first entry into your professional portfolio.
+To install the dependencies:
+```
+npm install
+```
+
+To build and run the program:
+```
+npm run build
+```
