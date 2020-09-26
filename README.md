@@ -8,22 +8,25 @@ This respository is intended for the use of Focus College Students enrolled in t
 ------------------------------
 In this version of the assignment, our application can run three npm scripts. `compile`, `start`, and `build`.  
 * `compile`, runs the tsc command and compiles the project
-<br>
+
     Example: 
+
     ```
     npm run compile
     ```
 
 * `start`, runs index.js file in the dist folder (which is created with the compile command)
-<br>
+
     Example: 
+
     ```
     npm run start
     ```
-    
+
 * `build`, runs both the start, and compile commands together:
-<br>
+
     Example: 
+
     ```
     npm run build
     ```
