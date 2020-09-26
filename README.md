@@ -4,12 +4,12 @@ This respository is intended for the use of Focus College Students enrolled in t
 
 ---
 
+### Vresion: 2.1.0
+
 ## How to Use This Application
 ------------------------------
-In this version of the assignment, our application can run three npm scripts. `compile`, `start`, and `build`.  
+In this version of the assignment, our application can run five npm scripts. `compile`, `start`, `build`, `lint`, and `build:lint`.  
 * `compile`, runs the tsc command and compiles the project
-
-    Example: 
 
     ```
     npm run compile
@@ -30,7 +30,20 @@ In this version of the assignment, our application can run three npm scripts. `c
     ```
     npm run build
     ```
+* `lint`, runs eslint within our program
 
+    Example: 
+
+    ```
+    npm run lint
+    ```
+    * `build:lint`, runs all of the build commands, as well as linting.
+
+    Example: 
+
+    ```
+    npm run build:lint
+    ```
 
 
 
