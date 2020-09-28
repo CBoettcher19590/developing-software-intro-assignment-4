@@ -51,7 +51,7 @@ In this version of the assignment, our application can run six npm scripts. `com
     ```
 * `test:coverage`, this will run our tests, and use nyc to print out a nice chart in our console. 
     ```
-    npm run test:
+    npm run test:coverage
     ```
 
   
