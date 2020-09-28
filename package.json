@@ -9,7 +9,8 @@
     "build": "npm run build:lint && npm run build:format && npm run build:notest",
     "build:notest": "npm run compile && npm run start",
     "build:format": "prettier --write src/**/*.ts",
-    "build:lint": "eslint src/**/*.ts --ext .ts --fix"
+    "build:lint": "eslint src/**/*.ts --ext .ts --fix",
+    "test": "mocha -r ts-node/register tests/**/*.spec.ts"
   },
   "repository": {
     "type": "git",
@@ -23,12 +24,15 @@
   "homepage": "https://github.com/CBoettcher19590/developing-software-intro-assignment-4#readme",
   "dependencies": {},
   "devDependencies": {
+    "@types/chai": "^4.2.12",
+    "@types/mocha": "^8.0.3",
     "@typescript-eslint/eslint-plugin": "^4.2.0",
     "@typescript-eslint/parser": "^4.2.0",
-    "chia": "0.0.1",
+    "chai": "^4.2.0",
     "eslint": "^7.9.0",
     "mocha": "^8.1.3",
     "prettier": "^2.1.2",
+    "ts-node": "^9.0.0",
     "typescript": "^4.0.3"
   }
 }
