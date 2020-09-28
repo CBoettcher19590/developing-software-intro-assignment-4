@@ -4,10 +4,10 @@ This respository is intended for the use of Focus College Students enrolled in t
 
 ---
 
-### Version: 6.0.0
+### Version: 7.0.0
 Major Version Changes, nyc, and @istanbuljs/nyc-config-typescript into dependancies. Will need to re-run ```npm install```
 
-## How to Use This Application
+## How to Use The Scripts
 ------------------------------
 In this version of the assignment, our application can run six npm scripts. `compile`,  `start` ,  `build` ,  `build:notest` , `build:format` , `build:lint`, and `test`. 
 
@@ -55,6 +55,19 @@ In this version of the assignment, our application can run six npm scripts. `com
     ```
 
   
+## How to use Yargs
+-------------------
+In this Version, Yargs has been added to the project. Using the `assign-name` command you will be able to enter a name in the command line, and the program will return a console.log that states Hello [name]. 
+
+* To use `assign-name`, you need to pass in one parameter:
+
+    * The name of the who you want to say Hello to(preceeded by the `-n flag`)
+
+Example:
+
+```
+node dist/index.js assign-name -n Colby
+```
 
 
 ## Developing Instrucions 
