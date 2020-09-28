@@ -6,17 +6,18 @@
   "scripts": {
     "compile": "tsc",
     "start": "node dist/index.js",
-    "build": "npm run build:lint && npm run build:format && npm run build:notest",
+    "build": "npm run build:lint && npm run build:format &&  npm run test && npm run build:notest",
     "build:notest": "npm run compile && npm run start",
     "build:format": "prettier --write src/**/*.ts",
     "build:lint": "eslint src/**/*.ts --ext .ts --fix",
-    "test": "nyc mocha -r ts-node/register tests/**/*.spec.ts"
+    "test": "mocha -r ts-node/register tests/**/*.spec.ts",
+    "test:coverage": "nyc mocha -r ts-node/register tests/**/*.spec.ts",
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/CBoettcher19590/developing-software-intro-assignment-4.git"
   },
-  "author": "Colby Boettcher",
+  "author": "Colby Boettcher",,
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/CBoettcher19590/developing-software-intro-assignment-4/issues"
