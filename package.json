@@ -23,11 +23,15 @@
     "url": "https://github.com/CBoettcher19590/developing-software-intro-assignment-4/issues"
   },
   "homepage": "https://github.com/CBoettcher19590/developing-software-intro-assignment-4#readme",
-  "dependencies": {},
+  "dependencies": {
+    "yargs": "^16.0.3"
+  },
   "devDependencies": {
     "@istanbuljs/nyc-config-typescript": "^1.0.1",
     "@types/chai": "^4.2.12",
     "@types/mocha": "^8.0.3",
+    "@types/node": "^14.11.2",
+    "@types/yargs": "^15.0.7",
     "@typescript-eslint/eslint-plugin": "^4.2.0",
     "@typescript-eslint/parser": "^4.2.0",
     "chai": "^4.2.0",
