@@ -4,12 +4,12 @@ This respository is intended for the use of Focus College Students enrolled in t
 
 ---
 
-### Version: 4.0.0
-Major Version Changes, Added prettier into dependancies. Will need to re-run ```npm install```
+### Version: 5.0.0
+Major Version Changes, Added mocha, chai, @types/mocha, and /chai, and ts-node into dependancies. Will need to re-run ```npm install```
 
 ## How to Use This Application
 ------------------------------
-In this version of the assignment, our application can run six npm scripts. `compile`,  `start` ,  `build` ,  `build:notest` , `build:format` , and `build:lint`. 
+In this version of the assignment, our application can run six npm scripts. `compile`,  `start` ,  `build` ,  `build:notest` , `build:format` , `build:lint`, and `test`. 
 
 * `compile`, runs the tsc command and compiles the project
 
@@ -17,9 +17,7 @@ In this version of the assignment, our application can run six npm scripts. `com
     npm run compile
     ```
 
-* `start`, runs index.js file in the dist folder (which is created with the compile command)
-
-    Example: 
+* `start`, runs index.js file in the dist folder (which is created with the compile command.
 
     ```
     npm run start
@@ -27,29 +25,26 @@ In this version of the assignment, our application can run six npm scripts. `com
 
 * `build`, runs three commands at once, it will lint, format,  then compile and run
 
-    Example: 
-
     ```
     npm run build
     ```
 * `build:notest`, this will run build, without prettier, or eslint.
-
-    Example: 
 
     ```
     npm run build:notest
     ```
 * `build:format`, runs prettier, and formats your code.
 
-    Example: 
-
     ```
     npm run build:format
-    ```s
+    ```
 
 * `build:lint`, runs eslint within our program  (formally named `lint`)
 
-    Example: 
+    ```
+    npm run build:lint
+    ```
+ * `test`, runs our tests in the "tests" folder that was added
 
     ```
     npm run build:lint
