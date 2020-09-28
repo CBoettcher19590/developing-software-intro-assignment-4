@@ -4,8 +4,8 @@ This respository is intended for the use of Focus College Students enrolled in t
 
 ---
 
-### Version: 5.0.0
-Major Version Changes, Added mocha, chai, @types/mocha, and /chai, and ts-node into dependancies. Will need to re-run ```npm install```
+### Version: 6.0.0
+Major Version Changes, nyc, and @istanbuljs/nyc-config-typescript into dependancies. Will need to re-run ```npm install```
 
 ## How to Use This Application
 ------------------------------
@@ -23,7 +23,7 @@ In this version of the assignment, our application can run six npm scripts. `com
     npm run start
     ```
 
-* `build`, runs three commands at once, it will lint, format,  then compile and run
+*  *Updated* `build`, runs four commands at once, it will lint, format,  then compile and run
 
     ```
     npm run build
@@ -49,6 +49,12 @@ In this version of the assignment, our application can run six npm scripts. `com
     ```
     npm run build:lint
     ```
+* `test:coverage`, this will run our tests, and use nyc to print out a nice chart in our console. 
+    ```
+    npm run test:
+    ```
+
+  
 
 
 ## Developing Instrucions 

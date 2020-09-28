@@ -1,6 +1,6 @@
 {
   "name": "acsd-assignment-4-colbyboetther",
-  "version": "5.0.0",
+  "version": "6.0.0",
   "description": "This respository is intended for the use of Focus College Students enrolled in the Advanced Certificate of Software Development located in Kelowna, BC and Surrey, BC.",
   "main": "index.js",
   "scripts": {
@@ -11,13 +11,13 @@
     "build:format": "prettier --write src/**/*.ts",
     "build:lint": "eslint src/**/*.ts --ext .ts --fix",
     "test": "mocha -r ts-node/register tests/**/*.spec.ts",
-    "test:coverage": "nyc mocha -r ts-node/register tests/**/*.spec.ts",
+    "test:coverage": "nyc mocha -r ts-node/register tests/**/*.spec.ts"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/CBoettcher19590/developing-software-intro-assignment-4.git"
   },
-  "author": "Colby Boettcher",,
+  "author": "Colby Boettcher",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/CBoettcher19590/developing-software-intro-assignment-4/issues"
