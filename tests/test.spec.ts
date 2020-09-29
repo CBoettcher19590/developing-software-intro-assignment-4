@@ -1,10 +1,12 @@
-import hiTerminal from '../src/index';
+import sayHello from '../src/modules/yargs';
+import yargs, { Arguments, Argv } from "yargs";
 import { expect } from 'chai';
 import 'mocha';
 
-describe("Hello Terminal Function", () => {
-    it("should return Hello Terminal!", () => {
-        const result = hiTerminal();
-        expect(result).to.equal("Hello Terminal!");
+
+describe("Hello yargs Function", () => {
+    it("should return Hello " + yargs.argv.$0, () => {
+        const restult = sayHello(yargs);
+        expect(restult).to.equal(sayHello(yargs))
     });
 });
