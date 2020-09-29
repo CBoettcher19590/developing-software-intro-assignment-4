@@ -1,4 +1,5 @@
-import { Arguments, Argv } from "yargs";
+import yargs, { Arguments, Argv } from "yargs";
+
 
 export default function sayHello(yargs: Argv): void {
   yargs.command(
