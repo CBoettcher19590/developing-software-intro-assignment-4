@@ -4,8 +4,8 @@ This respository is intended for the use of Focus College Students enrolled in t
 
 ---
 
-### Version: 7.0.0
-Major Version Changes, nyc, and @istanbuljs/nyc-config-typescript into dependancies. Will need to re-run ```npm install```
+### Version: 7.1.0
+Minor Version Changes: Added Modules to the project, and integrated testing for the functions
 
 ## How to Use The Scripts
 ------------------------------
